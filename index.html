@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,13 +8,128 @@
     <link rel="stylesheet" href="assets/css/estilos.css">
 
 </head>
+
 <body>
-    <h1>Act-Tablas 21/08/2020</h1>
-    <p>Crear una tabla en HTML y CSS para presentar la información de la agenda semanal personal (laboral y de estudio) implementar rowspan, colspan y col (agregar clases o estilos).
-        Crear una tabla con Bootstrap para presentar la información de la agenda semanal personal (laboral y de estudio) implementar rowspan, colspan y col.
-        Crear una tabla con registros (estructura de datos bidimensional de 10 filas * 6 columnas) a partir de un archivo JSON (HTML solamente).
-        Crear una tabla con registros (estructura de datos bidimensional de 10 filas * 6 columnas) a partir de un archivo JSON (con CSS personalizado o Bootstrap).
-    </p>
+    <div class="container">
+        <div class="child1">
+            <h3>Actividad #1</h3>
+            <p>
+                Crear una tabla en HTML y CSS para presentar
+                la información de la agenda semanal personal (laboral y de estudio) implementar rowspan,
+                colspan y col (agregar clases o estilos).
+            </p>
+        </div>
+
+        <div class="child2">
+            <table class="table">
+                <caption><h1>My Fucking Schedule</h1></caption>
+                <colgroup>
+                    <col>
+                    <col>
+                    <col>
+                    <col>
+                    <col>
+                    <col>
+                    <col>
+                    <col>
+                </colgroup>
+                <thead>
+                    <tr>
+                        <th>Hour</th>
+                        <th>Monday</th>
+                        <th>Tuesday</th>
+                        <th>Wednesday</th>
+                        <th>Thursday</th>
+                        <th>Friday</th>
+                        <th>Saturday</th>
+                        <th>Sunday</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>6</td>
+                        <td rowspan="3">-</td>
+                        <td rowspan="3"><strong>Seminario de Actualización</strong></td>
+                        <td rowspan="3"><strong>Lineas de Profundación ING</strong> </td>
+                        <td rowspan="3"><strong>Planeación Estratégica</strong></td>
+                        <td rowspan="3"><strong>Lineas de Profundación ING</strong></td>
+                        <td class="work" rowspan="15"><h4>TRABAJAR</h4></td>
+                        <td class="work" rowspan="15"><h4>TRABAJAR</h4></td>
+                    </tr>
+                    <tr>
+                        <td>7</td>
+                    </tr>
+                    <tr>
+                        <td>8</td>
+                    </tr>
+                    <tr>
+                        <td>9</td>
+                        <td class="practicas" colspan="5" rowspan="9"><h1>PRÁCTICAS</h1></td>
+                    </tr>
+                    <tr>
+                        <td>10</td>
+                    </tr>
+                    <tr>
+                        <td>11</td>
+                    </tr>
+                    <tr>
+                        <td>12</td>
+                    </tr>
+                    <tr>
+                        <td>13</td>
+                    </tr>
+                    <tr>
+                        <td>14</td>
+                    </tr>
+                    <tr>
+                        <td>15</td>
+                    </tr>
+                    <tr>
+                        <td>16</td>
+                    </tr>
+                    <tr>
+                        <td>17</td>
+                    </tr>
+                    <tr>
+                        <td>18</td>
+                        <td rowspan="3"><strong>Inteligencia de Negocios</strong></td>
+                        <td rowspan="3"><strong>-</strong></td>
+                        <td rowspan="3"><strong>Inteligencia de Negocios</strong></td>
+                        <td rowspan="3"><strong>Seminario de Actualización</strong></td>
+                        <td rowspan="3"><strong>Inglés</strong></td>
+                    </tr>
+                    <tr>
+                        <td>19</td>
+                    </tr>
+                    <tr>
+                        <td>20</td>
+                    </tr>
+                    <tr >
+                        <td>21</td>
+                        <td colspan="7" rowspan="4"><strong>Dormir, Tareas , Novelas y Recreación</strong></td>
+                        
+                    </tr>
+                    <tr>
+                        <td>22</td>
+                    </tr>
+                    <tr>
+                        <td>23</td>
+                    </tr>
+                    <tr>
+                        <td>24</td>
+                    </tr>
+
+
+
+                </tbody>
+                <tfoot>
+
+                </tfoot>
+            </table>
+        </div>
+    </div>
+
 </body>
 <script src="assets/js/scripts.js"></script>
+
 </html>
