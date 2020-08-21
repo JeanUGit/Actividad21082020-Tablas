@@ -5,141 +5,47 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi pagina de Inicio</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
+<template id="templatePage">
+    <table border="1">
+        <thead>
+            <tr>
+                <th>N°</th>
+                <th>Producto</th>
+                <th>Descripcion</th>
+                <th>Precio</th>
+                <th>Color</th>
+                <th>Existencia</th>
+                <th>Imagen</th>
+            </tr>
+        </thead>
+        <tbody data-subsection="data">
+            
+        </tbody>
+        <tfoot>
 
+        </tfoot>
+    </table>
+</template>
 <body>
     <div class="container">
-        <div class="row mt-5">
-            <div class="col-md-3">
-                <h3>Actividad #1</h3>
-                <p>
-                    Crear una tabla con Bootstrap para presentar la información 
-                    de la agenda semanal personal (laboral y de estudio) implementar rowspan, colspan y col.
-                </p>
-            </div>
-
-            <div class="col-md-7">
-                <table class="table table-sm table-bordered table-hover text-center">
-                    <caption>
-                        <h1>My Fucking Schedule</h1>
-                    </caption>
-                    <colgroup>
-                        <col>
-                        <col>
-                        <col>
-                        <col>
-                        <col>
-                        <col>
-                        <col>
-                        <col>
-                    </colgroup>
-                    <thead>
-                        <tr style="background-color: #444444;color: #ffffff;">
-                            <th>Hour</th>
-                            <th>Monday</th>
-                            <th>Tuesday</th>
-                            <th>Wednesday</th>
-                            <th>Thursday</th>
-                            <th>Friday</th>
-                            <th>Saturday</th>
-                            <th>Sunday</th>
-                        </tr>
-                    </thead>
-                    <tbody   style="text-align:center;">
-                        <tr class="text-center">
-                            <td>6</td>
-                            <td rowspan="3">-</td>
-                            <td rowspan="3" ><strong>Seminario de Actualización</strong></td>
-                            <td rowspan="3"><strong>Lineas de Profundación ING</strong> </td>
-                            <td rowspan="3"><strong>Planeación Estratégica</strong></td>
-                            <td rowspan="3"><strong>Lineas de Profundación ING</strong></td>
-                            <td class="work" rowspan="15">
-                                <h4>TRABAJAR</h4>
-                            </td>
-                            <td class="work" rowspan="15">
-                                <h4>TRABAJAR</h4>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>7</td>
-                        </tr>
-                        <tr>
-                            <td>8</td>
-                        </tr>
-                        <tr>
-                            <td>9</td>
-                            <td colspan="5" rowspan="9">
-                                <h1>PRÁCTICAS</h1>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>10</td>
-                        </tr>
-                        <tr>
-                            <td>11</td>
-                        </tr>
-                        <tr>
-                            <td>12</td>
-                        </tr>
-                        <tr>
-                            <td>13</td>
-                        </tr>
-                        <tr>
-                            <td>14</td>
-                        </tr>
-                        <tr>
-                            <td>15</td>
-                        </tr>
-                        <tr>
-                            <td>16</td>
-                        </tr>
-                        <tr>
-                            <td>17</td>
-                        </tr>
-                        <tr>
-                            <td>18</td>
-                            <td rowspan="3"><strong>Inteligencia de Negocios</strong></td>
-                            <td rowspan="3"><strong>-</strong></td>
-                            <td rowspan="3"><strong>Inteligencia de Negocios</strong></td>
-                            <td rowspan="3"><strong>Seminario de Actualización</strong></td>
-                            <td rowspan="3"><strong>Inglés</strong></td>
-                        </tr>
-                        <tr>
-                            <td>19</td>
-                        </tr>
-                        <tr>
-                            <td>20</td>
-                        </tr>
-                        <tr>
-                            <td>21</td>
-                            <td colspan="7" rowspan="4"><strong>Dormir, Tareas , Novelas y Recreación</strong></td>
-
-                        </tr>
-                        <tr>
-                            <td>22</td>
-                        </tr>
-                        <tr>
-                            <td>23</td>
-                        </tr>
-                        <tr>
-                            <td>24</td>
-                        </tr>
-
-
-
-                    </tbody>
-                    <tfoot>
-
-                    </tfoot>
-                </table>
-            </div>
+        <div class="child1">
+            <h3>Actividad #1</h3>
+            <p>
+                Crear una tabla con registros (estructura de datos bidimensional de 10 filas * 6 columnas) 
+                a partir de un archivo JSON (HTML solamente).
+            </p>
         </div>
 
+        <div class="child2">
+            <div id="divMain">
+
+            </div>
+           
+        </div>
     </div>
+    
+    <script src="assets/js/scripts.js"></script>
 </body>
-<script src="assets/js/scripts.js"></script>
-
 </html>
-

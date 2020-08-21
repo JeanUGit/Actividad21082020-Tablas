@@ -1,0 +1,15 @@
+{
+    "PCs":
+    [
+        ["Personal Computer","Portatil Computer Asus Vivobook 14 Pulgadas R5 12gb 512gb","2.749.900","Gris","10","<img src='assets/img/pc1.jpg' style='width: 60px;height: 60px;'>"],
+        ["Personal Computer","Portatil Asus Ryzen 5 M409da-bv496t - Asus W10","2.099.900","Gris","13","<img src='assets/img/pc2.jpg' style='width: 60px;height: 60px;'>"],
+        ["Celular","Celular Xiaomi Redmi Note 8 /64gb/48mp/4ram + Forro Y Vidrio","679.900","Blanco nácar","5","<img src='assets/img/celuco.jpg' style='width: 60px;height: 60px;'>"],
+        ["celular","Celular Xiaomi Redmi Note 9s /128gb/48mp/ 6ram + Forro","964.800","Azul aurora","7","<img src='assets/img/celuco2.jpg' style='width: 60px;height: 60px;'>"],
+        ["Audifonos","Haylou Audifonos Inalámbricos Gt1 Touch Bluetooth 5.0","97.999","negro","100","<img src='assets/img/audifonos.jpg' style='width: 60px;height: 60px;'>"],
+        ["Moto","Yamaha R1","$40.000.000","Azul","10","<img src='assets/img/moto.jpg' style='width: 60px;height: 60px;'>"],
+        ["Carro","Lamborgini","$40.000.000","Verde","50","<img src='assets/img/carro.jpg' style='width: 60px;height: 60px;'>"],
+        ["Joyeria","Cadena de Cruz","$40.000.000","Negro","40","<img src='assets/img/collar.jpg' style='width: 60px;height: 60px;'>"],
+        ["Gafas","Gafas de Sol","$40.000.000","Amarillo","34","<img src='assets/img/gafas.jpg' style='width: 60px;height: 60px;'>"],
+        ["Guitarra","Guitarra Acustica","$40.000.000","Azul","1","<img src='assets/img/guitarra.jpg' style='width: 60px;height: 60px;'>"]
+    ]
+}

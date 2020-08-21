@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+}
+
+.container{
+    width: 50%;
+    margin: 10% auto;
+    display: flex;
+}
+
+.child1{
+    margin: 0 20px;
+    width: 20%;
+}
+
